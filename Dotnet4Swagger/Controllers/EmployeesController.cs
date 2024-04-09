@@ -1,11 +1,11 @@
-﻿using EmployeeManagement.Models;
+﻿using Autofac;
+using EmployeeManagement.Models;
 using EmployeeManagment.Api.Models;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using System.Web.Http;
 using System.Linq;
-
 
 namespace EmployeeManagment.Api.Controllers
 {
@@ -147,4 +147,15 @@ namespace EmployeeManagment.Api.Controllers
 			}
 		}
 	}
+
+	// Add the following line after registering the IEmployeeRepository interface
+	public class AutofacConfig
+	{
+		public static void RegisterDependencies(ContainerBuilder builder)
+		{
+			builder.RegisterType<EmployeeRepository>().As<IEmployeeRepository>().InstancePerRequest();
+			builder.RegisterType<AppDbContext>().InstancePerRequest();
+		}
+	}
+
 }
