@@ -1,0 +1,2 @@
+C:\Users\bihela.wanasekara\Documents\Testing\EmplyeeManagement\Dotnet4Swagger\Dotnet4Swagger\obj\Debug\Dotnet4Swagger.csproj.AssemblyReference.cache
+C:\Users\bihela.wanasekara\Documents\Testing\EmplyeeManagement\Dotnet4Swagger\Dotnet4Swagger\obj\Debug\Dotnet4Swagger.csproj.CoreCompileInputs.cache

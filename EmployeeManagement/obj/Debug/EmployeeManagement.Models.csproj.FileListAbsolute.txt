@@ -1,0 +1,12 @@
+C:\Users\bihela.wanasekara\Documents\Testing\EmplyeeManagement\Dotnet4Swagger\EmployeeManagement\bin\Debug\EmployeeManagement.dll.config
+C:\Users\bihela.wanasekara\Documents\Testing\EmplyeeManagement\Dotnet4Swagger\EmployeeManagement\bin\Debug\EmployeeManagement.dll
+C:\Users\bihela.wanasekara\Documents\Testing\EmplyeeManagement\Dotnet4Swagger\EmployeeManagement\bin\Debug\EmployeeManagement.pdb
+C:\Users\bihela.wanasekara\Documents\Testing\EmplyeeManagement\Dotnet4Swagger\EmployeeManagement\bin\Debug\EntityFramework.dll
+C:\Users\bihela.wanasekara\Documents\Testing\EmplyeeManagement\Dotnet4Swagger\EmployeeManagement\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\bihela.wanasekara\Documents\Testing\EmplyeeManagement\Dotnet4Swagger\EmployeeManagement\bin\Debug\EntityFramework.xml
+C:\Users\bihela.wanasekara\Documents\Testing\EmplyeeManagement\Dotnet4Swagger\EmployeeManagement\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\bihela.wanasekara\Documents\Testing\EmplyeeManagement\Dotnet4Swagger\EmployeeManagement\obj\Debug\EmployeeManagement.Models.csproj.AssemblyReference.cache
+C:\Users\bihela.wanasekara\Documents\Testing\EmplyeeManagement\Dotnet4Swagger\EmployeeManagement\obj\Debug\EmployeeManagement.Models.csproj.CoreCompileInputs.cache
+C:\Users\bihela.wanasekara\Documents\Testing\EmplyeeManagement\Dotnet4Swagger\EmployeeManagement\obj\Debug\Employee.4483E687.Up2Date
+C:\Users\bihela.wanasekara\Documents\Testing\EmplyeeManagement\Dotnet4Swagger\EmployeeManagement\obj\Debug\EmployeeManagement.dll
+C:\Users\bihela.wanasekara\Documents\Testing\EmplyeeManagement\Dotnet4Swagger\EmployeeManagement\obj\Debug\EmployeeManagement.pdb
