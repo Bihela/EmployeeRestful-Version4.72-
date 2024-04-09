@@ -1,36 +1,42 @@
-﻿using EmployeeManagement.Models;
-using Microsoft.EntityFrameworkCore;
-using System;
+﻿using System;
+using System.Configuration;
+using System.Data.Entity;
+using EmployeeManagement.Models;
 
 namespace EmployeeManagment.Api.Models
 {
 	public class AppDbContext : DbContext
 	{
-		public AppDbContext(DbContextOptions<AppDbContext> options)
-			: base(options)
+		public AppDbContext() : base("name=DBConnection")
 		{
-
+			Database.SetInitializer(new AppDbInitializer());
 		}
 
 		public DbSet<Employee> Employees { get; set; }
 		public DbSet<Department> Departments { get; set; }
 
-		protected override void OnModelCreating(ModelBuilder modelBuilder)
+		protected override void OnModelCreating(DbModelBuilder modelBuilder)
 		{
 			base.OnModelCreating(modelBuilder);
 
+			// Configure your entities here (e.g., entity mappings)
+		}
+	}
+
+	public class AppDbInitializer : CreateDatabaseIfNotExists<AppDbContext>
+	{
+		protected override void Seed(AppDbContext context)
+		{
+			base.Seed(context);
+
 			// Seed Departments Table
-			modelBuilder.Entity<Department>().HasData(
-				new Department { DepartmentId = 1, DepartmentName = "IT" });
-			modelBuilder.Entity<Department>().HasData(
-				new Department { DepartmentId = 2, DepartmentName = "Finance" });
-			modelBuilder.Entity<Department>().HasData(
-				new Department { DepartmentId = 3, DepartmentName = "HR" });
-			modelBuilder.Entity<Department>().HasData(
-				new Department { DepartmentId = 4, DepartmentName = "Marketing" });
+			context.Departments.Add(new Department { DepartmentId = 1, DepartmentName = "IT" });
+			context.Departments.Add(new Department { DepartmentId = 2, DepartmentName = "Finance" });
+			context.Departments.Add(new Department { DepartmentId = 3, DepartmentName = "HR" });
+			context.Departments.Add(new Department { DepartmentId = 4, DepartmentName = "Marketing" });
 
 			// Seed Employee Table
-			modelBuilder.Entity<Employee>().HasData(new Employee
+			context.Employees.Add(new Employee
 			{
 				EmployeeId = 1,
 				FirstName = "John",
@@ -41,7 +47,8 @@ namespace EmployeeManagment.Api.Models
 				DepartmentId = 1,
 				PhotoPath = "images/john.jpg"
 			});
-			modelBuilder.Entity<Employee>().HasData(new Employee
+
+			context.Employees.Add(new Employee
 			{
 				EmployeeId = 2,
 				FirstName = "Alice",
@@ -52,7 +59,8 @@ namespace EmployeeManagment.Api.Models
 				DepartmentId = 2,
 				PhotoPath = "images/alice.jpg"
 			});
-			modelBuilder.Entity<Employee>().HasData(new Employee
+
+			context.Employees.Add(new Employee
 			{
 				EmployeeId = 3,
 				FirstName = "Bob",
@@ -63,7 +71,8 @@ namespace EmployeeManagment.Api.Models
 				DepartmentId = 3,
 				PhotoPath = "images/bob.jpg"
 			});
-			modelBuilder.Entity<Employee>().HasData(new Employee
+
+			context.Employees.Add(new Employee
 			{
 				EmployeeId = 4,
 				FirstName = "Emily",
@@ -74,6 +83,8 @@ namespace EmployeeManagment.Api.Models
 				DepartmentId = 4,
 				PhotoPath = "images/emily.jpg"
 			});
+
+			context.SaveChanges();
 		}
 	}
 }

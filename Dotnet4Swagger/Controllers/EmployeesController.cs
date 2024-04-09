@@ -1,17 +1,15 @@
 ﻿using EmployeeManagement.Models;
 using EmployeeManagment.Api.Models;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Http;
 using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
+using System.Web.Http;
+using System.Linq;
+
 
 namespace EmployeeManagment.Api.Controllers
 {
-	[Route("api/[controller]")]
-	[ApiController]
-	public class EmployeesController : ControllerBase
+	public class EmployeesController : ApiController
 	{
 		private readonly IEmployeeRepository employeeRepository;
 
@@ -20,14 +18,15 @@ namespace EmployeeManagment.Api.Controllers
 			this.employeeRepository = employeeRepository;
 		}
 
-		[HttpGet("Search")]
-		public async Task<ActionResult<IEnumerable<Employee>>> Search(string name, Gender? gender)
+		[HttpGet]
+		[Route("api/Employees/Search")]
+		public async Task<IHttpActionResult> Search(string name, Gender? gender)
 		{
 			try
 			{
 				var result = await employeeRepository.Search(name, gender);
 
-				if (result.Any())
+				if (result != null && result.Any())
 				{
 					return Ok(result);
 				}
@@ -36,43 +35,47 @@ namespace EmployeeManagment.Api.Controllers
 			}
 			catch (Exception ex)
 			{
-				return StatusCode(StatusCodes.Status500InternalServerError, "Error retrieving data from the database");
+				return InternalServerError(ex);
 			}
 		}
 
 		[HttpGet]
-		public async Task<ActionResult> GetEmployees()
+		[Route("api/Employees")]
+		public async Task<IHttpActionResult> GetEmployees()
 		{
 			try
 			{
-				return Ok(await employeeRepository.GetEmployees());
+				var employees = await employeeRepository.GetEmployees();
+				return Ok(employees);
 			}
 			catch (Exception ex)
 			{
-				return StatusCode(StatusCodes.Status500InternalServerError, "Error retrieving data from the database");
+				return InternalServerError(ex);
 			}
 		}
 
-		[HttpGet("{id:int}")]
-		public async Task<ActionResult<Employee>> GetEmployee(int id)
+		[HttpGet]
+		[Route("api/Employees/{id:int}")]
+		public async Task<IHttpActionResult> GetEmployee(int id)
 		{
 			try
 			{
-				var result = await employeeRepository.GetEmployee(id);
-				if (result == null)
+				var employee = await employeeRepository.GetEmployee(id);
+				if (employee == null)
 				{
 					return NotFound();
 				}
-				return Ok(result);
+				return Ok(employee);
 			}
 			catch (Exception ex)
 			{
-				return StatusCode(StatusCodes.Status500InternalServerError, "Error retrieving data from the database");
+				return InternalServerError(ex);
 			}
 		}
 
 		[HttpPost]
-		public async Task<ActionResult<Employee>> CreateEmployee(Employee employee)
+		[Route("api/Employees")]
+		public async Task<IHttpActionResult> CreateEmployee(Employee employee)
 		{
 			try
 			{
@@ -91,16 +94,17 @@ namespace EmployeeManagment.Api.Controllers
 
 				var createdEmployee = await employeeRepository.AddEmployee(employee);
 
-				return CreatedAtAction(nameof(GetEmployee), new { id = createdEmployee.EmployeeId }, createdEmployee);
+				return CreatedAtRoute("DefaultApi", new { id = createdEmployee.EmployeeId }, createdEmployee);
 			}
 			catch (Exception ex)
 			{
-				return StatusCode(StatusCodes.Status500InternalServerError, "Error creating employee");
+				return InternalServerError(ex);
 			}
 		}
 
-		[HttpPut("{id:int}")]
-		public async Task<ActionResult<Employee>> UpdateEmployee(int id, Employee employee)
+		[HttpPut]
+		[Route("api/Employees/{id:int}")]
+		public async Task<IHttpActionResult> UpdateEmployee(int id, Employee employee)
 		{
 			try
 			{
@@ -112,32 +116,34 @@ namespace EmployeeManagment.Api.Controllers
 
 				if (employeeToUpdate == null)
 				{
-					return NotFound($"Employee with Id = {id} not found");
+					return NotFound();
 				}
 
-				return await employeeRepository.UpdateEmployee(employee);
+				await employeeRepository.UpdateEmployee(employee);
+				return Ok(employee);
 			}
 			catch (Exception ex)
 			{
-				return StatusCode(StatusCodes.Status500InternalServerError, "Error updating employee");
+				return InternalServerError(ex);
 			}
 		}
 
-		[HttpDelete("{id:int}")]
-		public async Task<ActionResult<Employee>> DeleteEmployee(int id)
+		[HttpDelete]
+		[Route("api/Employees/{id:int}")]
+		public async Task<IHttpActionResult> DeleteEmployee(int id)
 		{
 			try
 			{
 				var employeeToDelete = await employeeRepository.DeleteEmployee(id);
 				if (employeeToDelete == null)
 				{
-					return NotFound($"Employee with Id = {id} not found");
+					return NotFound();
 				}
-				return employeeToDelete;
+				return Ok(employeeToDelete);
 			}
 			catch (Exception ex)
 			{
-				return StatusCode(StatusCodes.Status500InternalServerError, "Error deleting employee");
+				return InternalServerError(ex);
 			}
 		}
 	}
