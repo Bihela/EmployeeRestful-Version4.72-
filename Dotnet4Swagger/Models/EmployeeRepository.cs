@@ -1,7 +1,7 @@
 ﻿using EmployeeManagement.Models;
-using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -18,9 +18,9 @@ namespace EmployeeManagment.Api.Models
 
 		public async Task<Employee> AddEmployee(Employee employee)
 		{
-			var result = await _appDbContext.Employees.AddAsync(employee);
+			var result = _appDbContext.Employees.Add(employee);
 			await _appDbContext.SaveChangesAsync();
-			return result.Entity;
+			return result;
 		}
 
 		public async Task<Employee> DeleteEmployee(int employeeId)
@@ -57,10 +57,10 @@ namespace EmployeeManagment.Api.Models
 
 			if (!string.IsNullOrEmpty(name))
 			{
-				query = query.Where(e => e.FirstName.Contains (name) || e.LastName.Contains(name));
+				query = query.Where(e => e.FirstName.Contains(name) || e.LastName.Contains(name));
 			}
 
-			if (gender != null) 
+			if (gender != null)
 			{
 				query = query.Where(e => e.Gender == gender);
 			}

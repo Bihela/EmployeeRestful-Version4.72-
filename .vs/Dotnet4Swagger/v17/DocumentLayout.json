@@ -3,20 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\bihela.wanasekara\\Documents\\Testing\\EmplyeeManagement\\Dotnet4Swagger\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{04CD3019-7833-4978-9844-3E529CCF42A7}|Dotnet4Swagger\\Dotnet4Swagger.csproj|c:\\users\\bihela.wanasekara\\documents\\testing\\emplyeemanagement\\dotnet4swagger\\dotnet4swagger\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{04CD3019-7833-4978-9844-3E529CCF42A7}|Dotnet4Swagger\\Dotnet4Swagger.csproj|solutionrelative:dotnet4swagger\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{04CD3019-7833-4978-9844-3E529CCF42A7}|Dotnet4Swagger\\Dotnet4Swagger.csproj|c:\\users\\bihela.wanasekara\\documents\\testing\\emplyeemanagement\\dotnet4swagger\\dotnet4swagger\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04CD3019-7833-4978-9844-3E529CCF42A7}|Dotnet4Swagger\\Dotnet4Swagger.csproj|solutionrelative:dotnet4swagger\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04CD3019-7833-4978-9844-3E529CCF42A7}|Dotnet4Swagger\\Dotnet4Swagger.csproj|c:\\users\\bihela.wanasekara\\documents\\testing\\emplyeemanagement\\dotnet4swagger\\dotnet4swagger\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{04CD3019-7833-4978-9844-3E529CCF42A7}|Dotnet4Swagger\\Dotnet4Swagger.csproj|solutionrelative:dotnet4swagger\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{04CD3019-7833-4978-9844-3E529CCF42A7}|Dotnet4Swagger\\Dotnet4Swagger.csproj|C:\\Users\\bihela.wanasekara\\Documents\\Testing\\EmplyeeManagement\\Dotnet4Swagger\\dotnet4swagger\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{04CD3019-7833-4978-9844-3E529CCF42A7}|Dotnet4Swagger\\Dotnet4Swagger.csproj|solutionrelative:dotnet4swagger\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{04CD3019-7833-4978-9844-3E529CCF42A7}|Dotnet4Swagger\\Dotnet4Swagger.csproj|C:\\Users\\bihela.wanasekara\\Documents\\Testing\\EmplyeeManagement\\Dotnet4Swagger\\dotnet4swagger\\models\\departmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{04CD3019-7833-4978-9844-3E529CCF42A7}|Dotnet4Swagger\\Dotnet4Swagger.csproj|solutionrelative:dotnet4swagger\\models\\departmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{04CD3019-7833-4978-9844-3E529CCF42A7}|Dotnet4Swagger\\Dotnet4Swagger.csproj|C:\\Users\\bihela.wanasekara\\Documents\\Testing\\EmplyeeManagement\\Dotnet4Swagger\\dotnet4swagger\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04CD3019-7833-4978-9844-3E529CCF42A7}|Dotnet4Swagger\\Dotnet4Swagger.csproj|solutionrelative:dotnet4swagger\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04CD3019-7833-4978-9844-3E529CCF42A7}|Dotnet4Swagger\\Dotnet4Swagger.csproj|c:\\users\\bihela.wanasekara\\documents\\testing\\emplyeemanagement\\dotnet4swagger\\dotnet4swagger\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04CD3019-7833-4978-9844-3E529CCF42A7}|Dotnet4Swagger\\Dotnet4Swagger.csproj|solutionrelative:dotnet4swagger\\controllers\\employeescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04CD3019-7833-4978-9844-3E529CCF42A7}|Dotnet4Swagger\\Dotnet4Swagger.csproj|c:\\users\\bihela.wanasekara\\documents\\testing\\emplyeemanagement\\dotnet4swagger\\dotnet4swagger\\models\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04CD3019-7833-4978-9844-3E529CCF42A7}|Dotnet4Swagger\\Dotnet4Swagger.csproj|solutionrelative:dotnet4swagger\\models\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04CD3019-7833-4978-9844-3E529CCF42A7}|Dotnet4Swagger\\Dotnet4Swagger.csproj|c:\\users\\bihela.wanasekara\\documents\\testing\\emplyeemanagement\\dotnet4swagger\\dotnet4swagger\\models\\idepartmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04CD3019-7833-4978-9844-3E529CCF42A7}|Dotnet4Swagger\\Dotnet4Swagger.csproj|solutionrelative:dotnet4swagger\\models\\idepartmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{04CD3019-7833-4978-9844-3E529CCF42A7}|Dotnet4Swagger\\Dotnet4Swagger.csproj|C:\\Users\\bihela.wanasekara\\Documents\\Testing\\EmplyeeManagement\\Dotnet4Swagger\\dotnet4swagger\\models\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{04CD3019-7833-4978-9844-3E529CCF42A7}|Dotnet4Swagger\\Dotnet4Swagger.csproj|solutionrelative:dotnet4swagger\\models\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04CD3019-7833-4978-9844-3E529CCF42A7}|Dotnet4Swagger\\Dotnet4Swagger.csproj|C:\\Users\\bihela.wanasekara\\Documents\\Testing\\EmplyeeManagement\\Dotnet4Swagger\\dotnet4swagger\\models\\departmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04CD3019-7833-4978-9844-3E529CCF42A7}|Dotnet4Swagger\\Dotnet4Swagger.csproj|solutionrelative:dotnet4swagger\\models\\departmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1609BE05-75B3-41B0-9DEE-0A8BA55E3915}|EmployeeManagement\\EmployeeManagement.Models.csproj|C:\\Users\\bihela.wanasekara\\Documents\\Testing\\EmplyeeManagement\\Dotnet4Swagger\\employeemanagement\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1609BE05-75B3-41B0-9DEE-0A8BA55E3915}|EmployeeManagement\\EmployeeManagement.Models.csproj|solutionrelative:employeemanagement\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1609BE05-75B3-41B0-9DEE-0A8BA55E3915}|EmployeeManagement\\EmployeeManagement.Models.csproj|C:\\Users\\bihela.wanasekara\\Documents\\Testing\\EmplyeeManagement\\Dotnet4Swagger\\employeemanagement\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,14 +49,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{1609BE05-75B3-41B0-9DEE-0A8BA55E3915}|EmployeeManagement\\EmployeeManagement.Models.csproj|C:\\Users\\bihela.wanasekara\\Documents\\Testing\\EmplyeeManagement\\Dotnet4Swagger\\employeemanagement\\gender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1609BE05-75B3-41B0-9DEE-0A8BA55E3915}|EmployeeManagement\\EmployeeManagement.Models.csproj|solutionrelative:employeemanagement\\gender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1609BE05-75B3-41B0-9DEE-0A8BA55E3915}|EmployeeManagement\\EmployeeManagement.Models.csproj|C:\\Users\\bihela.wanasekara\\Documents\\Testing\\EmplyeeManagement\\Dotnet4Swagger\\employeemanagement\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1609BE05-75B3-41B0-9DEE-0A8BA55E3915}|EmployeeManagement\\EmployeeManagement.Models.csproj|solutionrelative:employeemanagement\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{04CD3019-7833-4978-9844-3E529CCF42A7}|Dotnet4Swagger\\Dotnet4Swagger.csproj|C:\\Users\\bihela.wanasekara\\Documents\\Testing\\EmplyeeManagement\\Dotnet4Swagger\\dotnet4swagger\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{04CD3019-7833-4978-9844-3E529CCF42A7}|Dotnet4Swagger\\Dotnet4Swagger.csproj|solutionrelative:dotnet4swagger\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{04CD3019-7833-4978-9844-3E529CCF42A7}|Dotnet4Swagger\\Dotnet4Swagger.csproj|C:\\Users\\bihela.wanasekara\\Documents\\Testing\\EmplyeeManagement\\Dotnet4Swagger\\dotnet4swagger\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,23 +62,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "EmployeeRepository.cs",
-              "DocumentMoniker": "C:\\Users\\bihela.wanasekara\\Documents\\Testing\\EmplyeeManagement\\Dotnet4Swagger\\Dotnet4Swagger\\Models\\EmployeeRepository.cs",
-              "RelativeDocumentMoniker": "Dotnet4Swagger\\Models\\EmployeeRepository.cs",
-              "ToolTip": "C:\\Users\\bihela.wanasekara\\Documents\\Testing\\EmplyeeManagement\\Dotnet4Swagger\\Dotnet4Swagger\\Models\\EmployeeRepository.cs*",
-              "RelativeToolTip": "Dotnet4Swagger\\Models\\EmployeeRepository.cs*",
-              "ViewState": "AQIAAD4AAAAAAAAAAAAiwFoAAAAAAAAA",
+              "DocumentIndex": 0,
+              "Title": "Configuration.cs",
+              "DocumentMoniker": "C:\\Users\\bihela.wanasekara\\Documents\\Testing\\EmplyeeManagement\\Dotnet4Swagger\\Dotnet4Swagger\\Migrations\\Configuration.cs",
+              "RelativeDocumentMoniker": "Dotnet4Swagger\\Migrations\\Configuration.cs",
+              "ToolTip": "C:\\Users\\bihela.wanasekara\\Documents\\Testing\\EmplyeeManagement\\Dotnet4Swagger\\Dotnet4Swagger\\Migrations\\Configuration.cs",
+              "RelativeToolTip": "Dotnet4Swagger\\Migrations\\Configuration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T09:47:26.767Z"
+              "WhenOpened": "2024-04-09T04:25:07.777Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\bihela.wanasekara\\Documents\\Testing\\EmplyeeManagement\\Dotnet4Swagger\\Dotnet4Swagger\\Web.config",
+              "RelativeDocumentMoniker": "Dotnet4Swagger\\Web.config",
+              "ToolTip": "C:\\Users\\bihela.wanasekara\\Documents\\Testing\\EmplyeeManagement\\Dotnet4Swagger\\Dotnet4Swagger\\Web.config",
+              "RelativeToolTip": "Dotnet4Swagger\\Web.config",
+              "ViewState": "AQIAABgAAAAAAAAAAAAiwEIAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-04-09T03:56:14.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IDepartmentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\bihela.wanasekara\\Documents\\Testing\\EmplyeeManagement\\Dotnet4Swagger\\Dotnet4Swagger\\Models\\IDepartmentRepository.cs",
+              "RelativeDocumentMoniker": "Dotnet4Swagger\\Models\\IDepartmentRepository.cs",
+              "ToolTip": "C:\\Users\\bihela.wanasekara\\Documents\\Testing\\EmplyeeManagement\\Dotnet4Swagger\\Dotnet4Swagger\\Models\\IDepartmentRepository.cs",
+              "RelativeToolTip": "Dotnet4Swagger\\Models\\IDepartmentRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T03:24:33.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EmployeeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\bihela.wanasekara\\Documents\\Testing\\EmplyeeManagement\\Dotnet4Swagger\\Dotnet4Swagger\\Models\\EmployeeRepository.cs",
+              "RelativeDocumentMoniker": "Dotnet4Swagger\\Models\\EmployeeRepository.cs",
+              "ToolTip": "C:\\Users\\bihela.wanasekara\\Documents\\Testing\\EmplyeeManagement\\Dotnet4Swagger\\Dotnet4Swagger\\Models\\EmployeeRepository.cs",
+              "RelativeToolTip": "Dotnet4Swagger\\Models\\EmployeeRepository.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAywFoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T09:47:26.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "DepartmentRepository.cs",
               "DocumentMoniker": "C:\\Users\\bihela.wanasekara\\Documents\\Testing\\EmplyeeManagement\\Dotnet4Swagger\\Dotnet4Swagger\\Models\\DepartmentRepository.cs",
               "RelativeDocumentMoniker": "Dotnet4Swagger\\Models\\DepartmentRepository.cs",
@@ -75,13 +131,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\bihela.wanasekara\\Documents\\Testing\\EmplyeeManagement\\Dotnet4Swagger\\Dotnet4Swagger\\Models\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Dotnet4Swagger\\Models\\AppDbContext.cs",
               "ToolTip": "C:\\Users\\bihela.wanasekara\\Documents\\Testing\\EmplyeeManagement\\Dotnet4Swagger\\Dotnet4Swagger\\Models\\AppDbContext.cs",
               "RelativeToolTip": "Dotnet4Swagger\\Models\\AppDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAAAAAA",
+              "ViewState": "AQIAACgAAAAAAAAAAAAwwDwAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-08T09:44:05.856Z",
               "EditorCaption": ""
@@ -89,31 +145,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Employee.cs",
-              "DocumentMoniker": "C:\\Users\\bihela.wanasekara\\Documents\\Testing\\EmplyeeManagement\\Dotnet4Swagger\\EmployeeManagement\\Employee.cs",
-              "RelativeDocumentMoniker": "EmployeeManagement\\Employee.cs",
-              "ToolTip": "C:\\Users\\bihela.wanasekara\\Documents\\Testing\\EmplyeeManagement\\Dotnet4Swagger\\EmployeeManagement\\Employee.cs",
-              "RelativeToolTip": "EmployeeManagement\\Employee.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T11:10:52.304Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "EmployeesController.cs",
               "DocumentMoniker": "C:\\Users\\bihela.wanasekara\\Documents\\Testing\\EmplyeeManagement\\Dotnet4Swagger\\Dotnet4Swagger\\Controllers\\EmployeesController.cs",
               "RelativeDocumentMoniker": "Dotnet4Swagger\\Controllers\\EmployeesController.cs",
               "ToolTip": "C:\\Users\\bihela.wanasekara\\Documents\\Testing\\EmplyeeManagement\\Dotnet4Swagger\\Dotnet4Swagger\\Controllers\\EmployeesController.cs",
               "RelativeToolTip": "Dotnet4Swagger\\Controllers\\EmployeesController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-04T11:10:07.767Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "Gender.cs",
               "DocumentMoniker": "C:\\Users\\bihela.wanasekara\\Documents\\Testing\\EmplyeeManagement\\Dotnet4Swagger\\EmployeeManagement\\Gender.cs",
               "RelativeDocumentMoniker": "EmployeeManagement\\Gender.cs",
@@ -125,7 +169,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "Department.cs",
               "DocumentMoniker": "C:\\Users\\bihela.wanasekara\\Documents\\Testing\\EmplyeeManagement\\Dotnet4Swagger\\EmployeeManagement\\Department.cs",
               "RelativeDocumentMoniker": "EmployeeManagement\\Department.cs",
@@ -133,23 +177,50 @@
               "RelativeToolTip": "EmployeeManagement\\Department.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T11:10:51.09Z"
+              "WhenOpened": "2024-04-04T11:10:51.09Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "Global.asax.cs",
               "DocumentMoniker": "C:\\Users\\bihela.wanasekara\\Documents\\Testing\\EmplyeeManagement\\Dotnet4Swagger\\Dotnet4Swagger\\Global.asax.cs",
               "RelativeDocumentMoniker": "Dotnet4Swagger\\Global.asax.cs",
               "ToolTip": "C:\\Users\\bihela.wanasekara\\Documents\\Testing\\EmplyeeManagement\\Dotnet4Swagger\\Dotnet4Swagger\\Global.asax.cs",
               "RelativeToolTip": "Dotnet4Swagger\\Global.asax.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-04T09:47:00.007Z"
+              "WhenOpened": "2024-04-04T09:47:00.007Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 5,
+              "Title": "IEmployeeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\bihela.wanasekara\\Documents\\Testing\\EmplyeeManagement\\Dotnet4Swagger\\Dotnet4Swagger\\Models\\IEmployeeRepository.cs",
+              "RelativeDocumentMoniker": "Dotnet4Swagger\\Models\\IEmployeeRepository.cs",
+              "ToolTip": "C:\\Users\\bihela.wanasekara\\Documents\\Testing\\EmplyeeManagement\\Dotnet4Swagger\\Dotnet4Swagger\\Models\\IEmployeeRepository.cs",
+              "RelativeToolTip": "Dotnet4Swagger\\Models\\IEmployeeRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T03:24:59.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\bihela.wanasekara\\Documents\\Testing\\EmplyeeManagement\\Dotnet4Swagger\\EmployeeManagement\\Employee.cs",
+              "RelativeDocumentMoniker": "EmployeeManagement\\Employee.cs",
+              "ToolTip": "C:\\Users\\bihela.wanasekara\\Documents\\Testing\\EmplyeeManagement\\Dotnet4Swagger\\EmployeeManagement\\Employee.cs",
+              "RelativeToolTip": "EmployeeManagement\\Employee.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-04T11:10:52.304Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "WebApiConfig.cs",
               "DocumentMoniker": "C:\\Users\\bihela.wanasekara\\Documents\\Testing\\EmplyeeManagement\\Dotnet4Swagger\\Dotnet4Swagger\\App_Start\\WebApiConfig.cs",
               "RelativeDocumentMoniker": "Dotnet4Swagger\\App_Start\\WebApiConfig.cs",
