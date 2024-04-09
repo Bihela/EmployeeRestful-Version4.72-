@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dotnet4Swagger", "Dotnet4Swagger\Dotnet4Swagger.csproj", "{04CD3019-7833-4978-9844-3E529CCF42A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeManagement.Models", "EmployeeManagement\EmployeeManagement.Models.csproj", "{1609BE05-75B3-41B0-9DEE-0A8BA55E3915}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{04CD3019-7833-4978-9844-3E529CCF42A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04CD3019-7833-4978-9844-3E529CCF42A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04CD3019-7833-4978-9844-3E529CCF42A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04CD3019-7833-4978-9844-3E529CCF42A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1609BE05-75B3-41B0-9DEE-0A8BA55E3915}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1609BE05-75B3-41B0-9DEE-0A8BA55E3915}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1609BE05-75B3-41B0-9DEE-0A8BA55E3915}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1609BE05-75B3-41B0-9DEE-0A8BA55E3915}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {96A8B4C6-CC03-4A9A-B855-184B6838E671}
+	EndGlobalSection
+EndGlobal
